@@ -1,0 +1,50 @@
+/* src/LeftNav.css */
+.left-nav {
+    width: 200px;
+    height: 50vh; /* Full height */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 10px;
+    
+    position: absolute; /* Fixed position */
+    left: 100px;
+}
+
+.left-nav h2 {
+    text-align: center;
+}
+
+.left-nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+.left-nav ul li {
+    margin: 15px 20px; /* Space between items */
+}
+
+.left-nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #00a6a6; /* Text color */
+    display: block; /* Make the link fill the list item */
+    padding: 2px; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    transition: background 0.3s; /* Transition effect */
+}
+
+.left-nav ul li a::after {
+    content: '✔'; /* Check mark character */
+    color: white; /* Same color as text */
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Make it circular */
+    background-color: #00a6a6; /* Light background color for circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px; /* Space between icon and text */
+    flex-shrink: 0;
+}
+.left-nav ul li a:hover {
+    background-color: #ddd; /* Highlight on hover */
+}

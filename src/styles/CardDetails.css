@@ -1,0 +1,18 @@
+/* src/components/CardDetails.css */
+.card-details {
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  
+  .card-details input {
+    display: block;
+    margin: 20px 0;
+    padding: 9px;
+    width: 50%;
+    text-indent: 0px; 
+    
+  }
+  .card-details h5{
+   
+    color: gainsboro;
+  }
